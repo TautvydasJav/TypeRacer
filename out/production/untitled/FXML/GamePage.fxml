@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="exit" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxControllers.GameController">
+    <children>
+        <TextField fx:id="typingField" layoutX="69.0" layoutY="269.0" prefHeight="49.0" prefWidth="390.0" promptText="Type text" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="341.0" />
+        <Button fx:id="startBtn" layoutX="611.0" layoutY="39.0" mnemonicParsing="false" onAction="#startTimer" prefHeight="32.0" prefWidth="65.0" text="Start" />
+      <ProgressBar fx:id="progressBar" layoutX="69.0" layoutY="224.0" prefHeight="25.0" prefWidth="390.0" progress="0.0" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="341.0" />
+      <Label fx:id="raceTextLabel" layoutX="69.0" layoutY="39.0" prefHeight="107.0" prefWidth="516.0" AnchorPane.bottomAnchor="254.0" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="215.0" AnchorPane.topAnchor="39.0">
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="timeLabel" layoutX="550.0" layoutY="163.0" prefHeight="49.0" prefWidth="187.0" AnchorPane.bottomAnchor="188.0" AnchorPane.leftAnchor="550.0" AnchorPane.rightAnchor="63.0" AnchorPane.topAnchor="163.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="pointsLabel" layoutX="550.0" layoutY="236.0" prefHeight="49.0" prefWidth="187.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets></Label>
+      <Button fx:id="exitBtn" layoutX="697.0" layoutY="39.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="32.0" prefWidth="65.0" text="Exit" />
+    </children>
+</AnchorPane>

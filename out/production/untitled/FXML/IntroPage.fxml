@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxControllers.IntroController">
+    <children>
+        <SplitPane layoutY="4.0" prefHeight="393.0" prefWidth="592.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <Button fx:id="startBtn" layoutX="208.0" layoutY="164.0" mnemonicParsing="false" onAction="#startGame" prefHeight="80.0" prefWidth="174.0" text="Start the Game" AnchorPane.bottomAnchor="147.0" AnchorPane.leftAnchor="208.0" AnchorPane.rightAnchor="208.0" AnchorPane.topAnchor="164.0" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="57.0" prefHeight="80.0" prefWidth="220.0" text="TypeRacer" textAlignment="CENTER" AnchorPane.bottomAnchor="254.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="185.0" AnchorPane.topAnchor="57.0">
+                            <font>
+                                <Font name="Dubai Bold" size="36.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
